@@ -1,8 +1,7 @@
 import React from "react";
-import Navbar from "./common/Navbar";
 import LandingIntro from "./section/LandingIntro"
 import LandingUsp from "./section/LandingUsp";
-import WhyUs from "./section/WhyUs"
+import WhyUs from "./section/About"
 import CTAadaptiveComp from "./section/CTAadaptiveComp";
 import Membership from "./section/Membership";
 import SingUpBlock from "./section/SingUpBlock";
@@ -13,7 +12,6 @@ import MobileMenu from "./common/MobileMenu";
 function Page() {
   return (
     <>
-      <Navbar />
       <LandingIntro/>
       <LandingUsp/>
       <WhyUs/>

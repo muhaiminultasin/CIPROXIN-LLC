@@ -1,11 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
 
 
-
-  // Footer social icons
-
+const navigate = useNavigate()
+const termscondition = () => {
+  navigate("/terms&condition")
+}
 
   return (
     <footer className='py-5 px-[20px]  md:px-[70px] lg:px-[140px]'>
@@ -14,9 +16,11 @@ function Footer() {
         <p>Office Address:
 7713 BRIGHT AVE #3, WHITTIER, California, 90602, United States
 Incorporation on 13 December 2022</p>
-        <div className='flex gap-5 justify-end'>
-          <a href="">Terms of Use</a>
-          <a href="">Privacy Policy</a>
+        <div className=''>
+          <ul className='flex gap-5 justify-end'>
+          <li className='cursor-pointer' onClick={termscondition}>Terms of Use</li>
+          <li className='cursor-pointer' href="">Privacy Policy</li>
+          </ul>
         </div>
       </div>
     </footer>

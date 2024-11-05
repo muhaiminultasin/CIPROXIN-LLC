@@ -1,8 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import Button from './Button';
 import cn from '../../assets/lib/utility/cn';
 
 function Navbar() {
+
+  const navigate = useNavigate();
+
+  const Home = () => {
+    navigate(
+      "/"
+    )
+  }
 
   const NavItems = [
     {
@@ -28,7 +37,7 @@ function Navbar() {
     <header className='w-full sticky left-0 top-0 z-50 py-5 px-[20px]  md:px-[70px] lg:px-[140px] bg-[#000000] border-b-[1px] border-b-gray-800 '>
       <nav className={cn(`flex justify-between items-center` , )}>
         <div id="logo" >
-          <a href="" className='flex gap-2 '><img src="./PBImage/logo-ciproxin.png" alt="" className='w-[40px]'/> <p className=' flex items-center  text-white text-[20px] font-[600]'>CIPROXIN LLC </p></a>
+          <div onClick={Home}  className='flex gap-2 cursor-pointer'><img src="./PBImage/logo-ciproxin.png" alt="" className='w-[40px]'/> <p className=' flex items-center  text-white text-[20px] font-[600]'>CIPROXIN LLC </p></div>
         </div>
 
         <div id="items" className='hidden lg:flex space-x-5' >
