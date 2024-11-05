@@ -65,7 +65,7 @@ function LandingIntro() {
           <img
             src="./PBImage/CIPROXINLLC.png"
             alt=""
-            className="w-fit ms-auto "
+            className="w-fit lg:mt-[-20px] "
           />
         </div>
       </div>
