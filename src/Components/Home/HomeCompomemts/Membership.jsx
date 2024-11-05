@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from '../common/title'
-import Button from '../common/Button'
+import Title from '../../common/title'
+import Button from '../../common/Button'
 
 function Membership() {
 

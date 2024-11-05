@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from '../common/title'
-import StoreButton from "../common/StoreButton"
+import Title from '../../common/title'
+import StoreButton from "../../common/StoreButton"
 
 function SingUpBlock() {
   return (

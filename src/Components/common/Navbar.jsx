@@ -1,6 +1,8 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react'
+import { useNavigate, } from 'react-router-dom';
+
 import Button from './Button';
+import MobileMenu from "../common/MobileMenu"
 import cn from '../../assets/lib/utility/cn';
 
 function Navbar() {
@@ -32,6 +34,9 @@ function Navbar() {
     }
   ]
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const  toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+
 
   return (
     <header className='w-full sticky left-0 top-0 z-50 py-5 px-[20px]  md:px-[70px] lg:px-[140px] bg-[#000000] border-b-[1px] border-b-gray-800 '>
@@ -52,12 +57,14 @@ function Navbar() {
         </div>
 
         <div className='block lg:hidden '>
-            <button className='flex flex-col space-y-1'>
+            <button onClick={toggleMenu} className='flex flex-col space-y-1'>
               <span className='w-[30px] h-[3px] bg-white'> </span>
               <span className='w-[30px] h-[3px] bg-white'> </span>
               <span className='w-[30px] h-[3px] bg-white'> </span>
             </button>
         </div>
+
+        {isMenuOpen && <MobileMenu toggleMenu={toggleMenu}/>}
 
         
       </nav>

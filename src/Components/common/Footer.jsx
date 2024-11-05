@@ -6,7 +6,24 @@ function Footer() {
 
 const navigate = useNavigate()
 const termscondition = () => {
+  window.scrollTo(0,0)
   navigate("/terms&condition")
+}
+
+const privecyPolicy = () => {
+  window.scrollTo(0,0)
+  navigate("/privecyPolicy")
+}
+
+
+const faq = () => {
+  window.scrollTo(0,0)
+  navigate("/faq")
+}
+
+const About = () => {
+  window.scrollTo(0,0)
+  navigate("/About")
 }
 
   return (
@@ -18,12 +35,12 @@ const termscondition = () => {
           <p>7713 BRIGHT AVE #3, WHITTIER, California, 90602, United States .</p>
           <p>Incorporation on 13 December 2022</p>
         </div>
-        <div className=''>
-          <ul className='grid grid-cols-1 md:grid-cols-4 md:gap-5 space-y-2 md:space-y-0  md:justify-end'>
+        <div className='relative'>
+          <ul className='absolute bottom-0 grid grid-cols-1  md:grid-cols-4 md:gap-5 space-y-2 md:space-y-0  md:justify-end'>
             <li className='cursor-pointer md:mx-auto md:text-center' onClick={termscondition}>Terms of Use</li>
-            <li className='cursor-pointer md:mx-auto md:text-center' onClick={""}>Privacy Policy</li>
-            <li className='cursor-pointer md:mx-auto md:text-center' href="">Faq</li>
-            <li className='cursor-pointer md:mx-auto md:text-center' href="">About Us</li>
+            <li className='cursor-pointer md:mx-auto md:text-center' onClick={privecyPolicy}>Privacy Policy</li>
+            <li className='cursor-pointer md:mx-auto md:text-center' onClick={faq}>Faq</li>
+            <li className='cursor-pointer md:mx-auto md:text-center' onClick={About}>About Us</li>
           </ul>
         </div>
       </div>

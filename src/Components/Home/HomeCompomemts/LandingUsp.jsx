@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from '../common/title'
-import Step from '../common/Step'
+import Title from '../../common/title'
+import Step from '../../common/Step'
 
 function LandingUsp() {
 
@@ -29,7 +29,7 @@ function LandingUsp() {
     ]
 
   return (
-    <section className='py-[80px] px-[20px] md:px-[70px] lg:px-[140px]'>
+    <section className='py-[50px] px-[20px] md:px-[70px] lg:px-[140px]'>
       <Title titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500] md:text-center md:leading-8"}
        subtitleClass={"md:text-center text-[16px] "} title={"Distribute your music in four simple steps!"} subtitle={"Sell your tracks online quickly with CIPROXIN LLC Distribution."}/>
 
