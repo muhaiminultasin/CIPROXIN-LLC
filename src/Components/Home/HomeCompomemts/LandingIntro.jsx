@@ -37,7 +37,15 @@ function LandingIntro() {
               "text-[#ffffff]  text-[30px] md:text-[35px] lg:text-[60px] md:leading-[45px] lg:leading-[90px]"
             }
             
-            title={"Sell Your Music With" }
+            title={"Sell Your Music" }
+            
+          />
+          <Title
+            titleClass={
+              "text-[#ffffff]  text-[30px] md:text-[35px] lg:text-[60px] md:leading-[45px] lg:leading-[90px]"
+            }
+            
+            title={"With" }
             
           />
           <Title
@@ -53,11 +61,11 @@ function LandingIntro() {
           </div>
           <Button btnPosition={"text-center lg:text-start"} className={"py-3 px-10 mt-5"} Name={"Contact"} />
         </div>
-        <div className=" mt-[-50px] md:mt-0 md:h-[600px] z-20 ">
+        <div className=" mt-[-50px]  md:mt-0 md:h-[600px] z-20 ">
           <img
             src="./PBImage/CIPROXINLLC.png"
             alt=""
-            className="w-[100%]"
+            className="w-fit ms-auto "
           />
         </div>
       </div>
