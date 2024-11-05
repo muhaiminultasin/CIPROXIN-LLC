@@ -21,7 +21,7 @@ const termscondition = () => {
         <div className=''>
           <ul className='grid grid-cols-1 md:grid-cols-4 md:gap-5 space-y-2 md:space-y-0  md:justify-end'>
             <li className='cursor-pointer md:mx-auto md:text-center' onClick={termscondition}>Terms of Use</li>
-            <li className='cursor-pointer md:mx-auto md:text-center' onClick={termscondition}>Privacy Policy</li>
+            <li className='cursor-pointer md:mx-auto md:text-center' onClick={""}>Privacy Policy</li>
             <li className='cursor-pointer md:mx-auto md:text-center' href="">Faq</li>
             <li className='cursor-pointer md:mx-auto md:text-center' href="">About Us</li>
           </ul>
