@@ -28,13 +28,13 @@ function LandingIntro() {
     <div>
       <div
         id="LandingIntro-top"
-        className=" relative px-[20px] md:px-[70px] lg:px-[140px]  bg-[#000000] pt-[50px] md:pt-[75px] pb-10 overflow-hidden"
+        className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0 px-[20px] md:px-[70px] lg:px-[140px]  bg-[#000000] pt-[50px] md:pt-[75px] pb-10 overflow-hidden"
       >
-        <div className="relative z-30 ">
+        <div className=" z-30 ">
           <div>
           <Title
             titleClass={
-              "text-[#ffffff] max-w-[550px] text-[30px] md:text-[35px] lg:text-[70px] md:leading-[45px] lg:leading-[90px]"
+              "text-[#ffffff]  text-[30px] md:text-[35px] lg:text-[60px] md:leading-[45px] lg:leading-[90px]"
             }
             
             title={"Sell Your Music With" }
@@ -51,13 +51,13 @@ function LandingIntro() {
             }
           />
           </div>
-          <Button btnPosition={"text-center lg:text-start"} className={"py-4 px-10 mt-5"} Name={"Contact"} />
+          <Button btnPosition={"text-center lg:text-start"} className={"py-3 px-10 mt-5"} Name={"Contact"} />
         </div>
-        <div className="md:w-[714px] mt-[-50px] md:mt-0 md:h-[600px] absolute top-0 right-0 z-20">
+        <div className=" mt-[-50px] md:mt-0 md:h-[600px] z-20 ">
           <img
             src="./PBImage/CIPROXINLLC.png"
             alt=""
-            className="block w-[100%] bg-cover"
+            className="w-[100%]"
           />
         </div>
       </div>

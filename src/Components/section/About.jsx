@@ -32,8 +32,8 @@ const Points = [
 
         <ul className="py-10 space-y-3">
           {
-            Points.map( ({point}) => {
-              return <li className="text-[16px] text-[#7E8999] font-[500]">{point}</li>
+            Points.map( ({point},i) => {
+              return <li key={i} className="text-[16px] text-[#7E8999] font-[500]">{point}</li>
             })
           }
         </ul>
