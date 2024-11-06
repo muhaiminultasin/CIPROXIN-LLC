@@ -35,8 +35,8 @@ const About = () => {
           <p>7713 BRIGHT AVE #3, WHITTIER, California, 90602, United States .</p>
           <p>Incorporation on 13 December 2022</p>
         </div>
-        <div className='relative'>
-          <ul className='absolute bottom-0 grid grid-cols-1  md:grid-cols-4 md:gap-5 space-y-2 md:space-y-0  md:justify-end'>
+        <div className='relative w-full'>
+          <ul className='absolute bottom-0 right-0 grid grid-cols-1  md:grid-cols-4 md:gap-5 space-y-2 md:space-y-0  md:justify-end'>
             <li className='cursor-pointer md:mx-auto md:text-center' onClick={termscondition}>Terms of Use</li>
             <li className='cursor-pointer md:mx-auto md:text-center' onClick={privecyPolicy}>Privacy Policy</li>
             <li className='cursor-pointer md:mx-auto md:text-center' onClick={faq}>Faq</li>
@@ -44,13 +44,9 @@ const About = () => {
           </ul>
         </div>
       </div>
-      <p className='text-[14px] text-[#111C2EA3] text-center mt-5'>2024 © CIPROXIN LLC. All rights reserved.</p>
+      <p className='text-[14px] text-[#111C2EA3] text-center mt-5'>2024 © <span className='font-[600]'>CIPROXIN LLC</span>. All rights reserved.</p>
     </footer>
   )
 }
 
 export default Footer;
-
-
-
-        

@@ -7,6 +7,9 @@ import About from "./Components/Home/HomeCompomemts/why";
 import Accordion from "./Components/FAQ/Accordion/Accordion";
 import FAQ from "./Components/FAQ/FAQ";
 import PrivecyPolicy from "./Components/PrivecyPolicy/PrivecyPolicy";
+import Contact from "./Components/Contact/Contact";
+import Iframe from "./Components/Contact/Ifram/Iframe";
+import Dashboard from "./Components/Contact/ApDashboard/Dashboard";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route path={"/privecyPolicy"} element={<PrivecyPolicy />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path={"/iframe"} element={<Iframe/>}/>
+          <Route path="apDashboard" element={<Dashboard/>}/>
         </Routes>
       </BrowserRouter>
     </>

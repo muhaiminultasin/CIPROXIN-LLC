@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate, } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import Button from './Button';
 import MobileMenu from "../common/MobileMenu"
@@ -22,7 +23,7 @@ function Navbar() {
     },
     {
       Name: "Contact",
-      link:"/Products"
+      link:"/contact"
     },
     {
       Name: "About",
@@ -49,7 +50,9 @@ function Navbar() {
           <ul className={cn(` text-white flex items-center space-x-10` )}>
             {
               NavItems.map( ({Name, link},i) => {
-                return <li key={i} className='font-[600] cursor-pointer'><a href="">{Name}</a></li>
+                return <li key={i} className='font-[600] cursor-pointer'>
+                  <NavLink to={link}>{Name}</NavLink>
+                </li>
               })
             }
           </ul>

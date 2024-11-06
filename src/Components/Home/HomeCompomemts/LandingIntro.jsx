@@ -65,7 +65,7 @@ function LandingIntro() {
           <img
             src="./PBImage/CIPROXINLLC.png"
             alt=""
-            className="w-fit lg:mt-[-20px] "
+            className="w-fit lg:mt-[-25px] "
           />
         </div>
       </div>
@@ -80,8 +80,6 @@ function LandingIntro() {
             );
           })}
         </ul>
-
-        
       </div>
     </div>
   );
