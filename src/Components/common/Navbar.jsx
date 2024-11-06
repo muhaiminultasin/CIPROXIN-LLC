@@ -19,7 +19,7 @@ function Navbar() {
   const NavItems = [
     {
       Name: "Support",
-      link:"/Products"
+      link:""
     },
     {
       Name: "Contact",
@@ -27,11 +27,11 @@ function Navbar() {
     },
     {
       Name: "About",
-      link:"/Products"
+      link:"/about"
     },
     {
       Name: "Login",
-      link:"/Products"
+      link:""
     }
   ]
 

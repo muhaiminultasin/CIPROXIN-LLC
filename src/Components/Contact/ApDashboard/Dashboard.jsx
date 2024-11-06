@@ -24,8 +24,8 @@ function Dashboard() {
         },
     ]
   return (
-    <div className='py-[50px] px-[20px] md:px-[70px] lg:px-[140px]'>
-      <div>
+    <div >
+      <div className='py-[50px] px-[20px] md:px-[70px] lg:px-[140px]'>
       <Title titleClass={"text-[25px] md:text-[35px] lg:text-[40px] md:text-center"} title={"Dashboard Application"} />
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:flex flex-wrap'>

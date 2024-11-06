@@ -3,7 +3,7 @@ import cn from "../../../assets/lib/utility/cn";
 import Title from "../../common/title";
 import Footer from "../../common/Footer";
 
-function About() {
+function WhyCiprox() {
   const Points = [
     {
       point:
@@ -59,12 +59,8 @@ function About() {
           opportunity to experience exceptional service from the CIPROXIN team!
         </p>
       </div>
-
-      <div></div>
-
-      <Footer />
     </section>
   );
 }
 
-export default About;
+export default WhyCiprox;

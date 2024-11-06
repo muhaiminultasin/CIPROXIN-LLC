@@ -20,7 +20,7 @@ function Membership() {
     ]
 
   return (
-    <section className=' bg-[#E3E9ED] px-[20px] md:px-[70px] lg:px-[170px] py-[100px] frid-cols-1 md:grid grid-cols-2 items-center gap-10 md:gap-5'>
+    <section className='  px-[20px] md:px-[70px] lg:px-[170px] py-[100px] frid-cols-1 md:grid grid-cols-2 items-center gap-10 md:gap-5'>
       <div>
         <Title title={"Comes with your Membership"} titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500]"}/>
 

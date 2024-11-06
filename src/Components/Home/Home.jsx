@@ -5,6 +5,7 @@ import MemberShip from "./HomeCompomemts/Membership"
 import SingUpBlock from "./HomeCompomemts/SingUpBlock"
 import Footer from "../common/Footer"
 import CTAadaptiveComp from "./HomeCompomemts/CTAadaptiveComp";
+import WhyCiprox from "./HomeCompomemts/WhyCiprox";
 
 function Page() {
   return (
@@ -13,6 +14,7 @@ function Page() {
       <LandingUsp/>
       <CTAadaptiveComp/>
       <MemberShip/>
+      <WhyCiprox/>
       <SingUpBlock/>
       <Footer/>
     </>

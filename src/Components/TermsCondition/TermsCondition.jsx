@@ -195,12 +195,12 @@ function TermsCondition() {
     <section>
       <div className="px-[20px] md:px-[70px] lg:px-[140px] py-10">
       <Title
-        titleClass={" text-[25px] md:text-[35px] lg:text-[40px]"}
+        titleClass={" text-[25px] md:text-[35px] lg:text-[40px] text-start"}
         title={"Terms and Conditions"}
-        subtitleClass={"mt-0"}
+        subtitleClass={"mt-0 text-start"}
         subtitle={"Effective Date: July 2024"}
       />
-      <p className="font-[400] text-[16px] text-[#7E8999]  text-center md:text-start mt-3">
+      <p className="font-[400] text-[16px] text-[#7E8999]  text-start  mt-3">
         Welcome to CIPROXIN LLC. By creating an account with us, you agree to
         these Terms and Conditions (“Terms”) and our associated Privacy Policy
         in its entirety.

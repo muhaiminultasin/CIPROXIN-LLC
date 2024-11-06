@@ -1,7 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import cn from '../../assets/lib/utility/cn';
 
-function Footer() {
+function Footer({className}) {
 
 
 const navigate = useNavigate()
@@ -27,7 +28,7 @@ const About = () => {
 }
 
   return (
-    <footer className='py-5 px-[20px]  md:px-[70px] lg:px-[140px]'>
+    <footer className={cn(`py-5 px-[20px]  md:px-[70px] lg:px-[140px]`, className)}>
       
       <div className='grid grid-cols-2 md:gap-5 mt-5 text-[14px] text-[#111C2EA3]'>
         <div className='space-y-2'>
