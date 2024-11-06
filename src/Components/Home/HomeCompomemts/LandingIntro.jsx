@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../../common/title";
 import Button from "../../common/Button";
+import { useNavigate } from "react-router-dom";
 
 function LandingIntro() {
   const companyLogo = [
@@ -23,6 +24,15 @@ function LandingIntro() {
       img: "./PBImage/tiktok.svg",
     },
   ];
+
+  const navigate = useNavigate();
+
+
+
+const contact = () => {
+  window.scrollTo(0,0)
+  navigate("/contact")
+}
 
   return (
     <div>
@@ -59,7 +69,7 @@ function LandingIntro() {
             }
           />
           </div>
-          <Button btnPosition={"text-center lg:text-start"} className={"py-3 px-10 mt-5"} Name={"Contact"} />
+          <Button onClick={contact} btnPosition={"text-center lg:text-start"} className={"py-3 px-10 mt-5"} Name={"Contact"} />
         </div>
         <div className=" mt-[-50px]  md:mt-0 md:h-[600px] z-20 ">
           <img

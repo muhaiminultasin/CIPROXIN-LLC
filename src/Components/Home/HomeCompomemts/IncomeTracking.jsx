@@ -6,23 +6,23 @@ function Membership() {
 
     const tags = [
         {
-            title:"Distribution"
+            title:"Revenue"
         },
         {
-            title:"Fan reach"
+            title:"Real-time Finance"
         },
         {
-            title:"Profile boost"
+            title:"Customizable Reporting"
         },
         {
-            title:"Unlimited opportunities"
+            title:"Data Privacy"
         }
     ]
 
   return (
     <section className='  px-[20px] md:px-[70px] lg:px-[170px] py-[100px] frid-cols-1 md:grid grid-cols-2 items-center gap-10 md:gap-5'>
       <div>
-        <Title title={"Comes with your Membership"} titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500]"}/>
+        <Title title={"Analyze Your Data with Clarity"} titleClass={"text-[25px] md:text-[35px] lg:text-[40px] font-[500]"}/>
 
         <div className='tags '>
             <ul className='flex flex-wrap gap-2'>
@@ -34,11 +34,11 @@ function Membership() {
             </ul>
         </div>
 
-        <Title subtitleClass={"text-[#7E8999]"} subtitle={"Enjoy BandLab Distribution, along with a full suite of artist-centric features under BandLab Membership."}/>
+        <Title subtitleClass={"text-[#7E8999]"} subtitle={"Unlock the power of your data. Harness advanced analytics to gain clarity on streaming trends, revenue patterns, and marketing effectiveness, driving smarter strategies and growth."}/>
       </div>
 
       <div>
-            <img src="./PBImage/distro-landing-membership_2x.png" alt="" />
+            <img src="./PBImage/IncomeTracking.png" alt="" className='md:ms-20'/>
       </div>
     </section>
   )

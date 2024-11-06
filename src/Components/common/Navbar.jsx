@@ -18,20 +18,16 @@ function Navbar() {
 
   const NavItems = [
     {
-      Name: "Support",
-      link:""
-    },
-    {
       Name: "Contact",
       link:"/contact"
     },
     {
-      Name: "About",
-      link:"/about"
+      Name: "FAQ",
+      link:"/faq"
     },
     {
-      Name: "Login",
-      link:""
+      Name: "About",
+      link:"/about"
     }
   ]
 
