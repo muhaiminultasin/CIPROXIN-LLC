@@ -6,22 +6,24 @@ import { NavLink } from "react-router-dom";
 function MobileMenu({toggleMenu}) {
   const NavItems = [
     {
-      Name: "Support",
-      link:""
-    },
-    {
       Name: "Contact",
       link:"/contact"
     },
     {
-      Name: "About",
-      link:"/about"
+      Name: "FAQ",
+      link:"/faq"
     },
     {
-      Name: "Login",
-      link:""
+      Name: "About",
+      link:"/about"
     }
   ]
+
+  const singnUp = () => {
+    navigate(
+      "/apDashboard"
+    )
+  }
 
   return (
     <div>
@@ -38,12 +40,12 @@ function MobileMenu({toggleMenu}) {
             {NavItems.map(({ Name,link }, i) => {
               return (
                 <li key={i} className="font-[600] text-[20px] cursor-pointer">
-                  <NavLink to={link}>{Name}</NavLink>
+                  <NavLink to={link} onClick={toggleMenu}>{Name}</NavLink>
                 </li>
               );
             })}
           </ul>
-          <Button Name="Sign up" className=" text-black w-full" />
+          <Button Name="Sign up" className=" text-black w-full"  onClick={singnUp}/>
         </div>
       </nav>
     </div>

@@ -36,7 +36,7 @@ function Dashboard() {
             }
         </div>
 
-         <iframe src="https://tally.so/r/mYz7xJ" frameborder="0" className='w-full h-[100vh]'></iframe>
+         <iframe src="https://tally.so/r/mYz7xJ"  className='w-full h-[100vh]'></iframe>
       </div>
             <Footer/>
 

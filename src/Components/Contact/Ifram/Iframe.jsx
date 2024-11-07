@@ -4,7 +4,7 @@ import Footer from '../../common/Footer'
 function Iframe() {
   return (
     <div>
-      <iframe src="https://tally.so/r/nGBO5Z" frameborder="0" className='w-full h-screen'></iframe>
+      <iframe src="https://tally.so/r/nGBO5Z"  className='w-full h-screen'></iframe>
       <Footer/>
     </div>
 

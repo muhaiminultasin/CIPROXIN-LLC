@@ -16,6 +16,12 @@ function Navbar() {
     )
   }
 
+  const singnUp = () => {
+    navigate(
+      "/apDashboard"
+    )
+  }
+
   const NavItems = [
     {
       Name: "Contact",
@@ -52,7 +58,7 @@ function Navbar() {
               })
             }
           </ul>
-          <Button Name="Sign up" className=""/>
+          <Button Name="Sign up" className="" onClick={singnUp}/>
         </div>
 
         <div className='block lg:hidden '>
