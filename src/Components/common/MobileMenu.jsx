@@ -1,7 +1,7 @@
 import React from "react";
 import cn from "../../assets/lib/utility/cn";
 import Button from "./Button";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function MobileMenu({toggleMenu}) {
   const NavItems = [
@@ -19,9 +19,11 @@ function MobileMenu({toggleMenu}) {
     }
   ]
 
+  const navigate = useNavigate()
   const singnUp = () => {
     navigate(
-      "/apDashboard"
+      "/apDashboard",
+      toggleMenu()
     )
   }
 
