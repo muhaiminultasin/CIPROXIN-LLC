@@ -9,7 +9,7 @@ import PrivecyPolicy from "./Components/PrivecyPolicy/PrivecyPolicy";
 import FAQ from "./Components/FAQ/FAQ";
 // ontact
 import Contact from "./Components/Contact/Contact";
-import Iframe from "./Components/Contact/Ifram/Iframe";
+import Report from "./Components/Contact/Ifram/report"
 import Dashboard from "./Components/Contact/ApDashboard/Dashboard";
 
 // about
@@ -28,7 +28,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
-          <Route path={"/iframe"} element={<Iframe/>}/>
+          <Route path={"/report"} element={<Report/>}/>
           <Route path="/apDashboard" element={<Dashboard/>}/>
         </Routes>
       </BrowserRouter>

@@ -148,16 +148,16 @@ function PrivecyPolicy() {
       </p> */}
 
       <div className="py-10">
-        {policy.map(({ policyTitle, conditions }) => {
+        {policy.map(({ policyTitle, conditions },i) => {
           return (
-            <ul className="mt-5 mb-10">
+            <ul key={i} className="mt-5 mb-10">
               <h1 className="my-2 font-[600] text-base md:text-[18px] lg:text-[20px]">
                 {policyTitle}
               </h1>
 
               {conditions.map(({ condition }) => {
                 return (
-                  <li className="text-[15px] font-[500] text-[#7E8999]">
+                  <li key={i} className="text-[15px] font-[500] text-[#7E8999]">
                     {condition}
                   </li>
                 );

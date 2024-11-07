@@ -31,8 +31,8 @@ function Contact() {
         <Title title={"Contact Us"} titleClass={"md:text-center text-[25px] md:text-[35px] lg:text-[40px]"}/>
             <div className='w-full'>
                 <div className='w-fit mx-auto'>
-                {btnProp.map( ({title,img,link}) => {
-                    return <NavLink to={link}><ReportBtn  className={"text-black text-center"} title={title} img={img} link={link}/></NavLink>
+                {btnProp.map( ({title,img,link},i) => {
+                    return <NavLink key={i} to={link}><ReportBtn  className={"text-black text-center"} title={title} img={img} link={link}/></NavLink>
                 })}
                 </div>
             </div>

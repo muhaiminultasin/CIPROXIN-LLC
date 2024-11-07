@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../common/Footer'
 
-function Iframe() {
+function Report() {
   return (
     <div>
       <iframe src="https://tally.so/r/nGBO5Z"  className='w-full h-screen'></iframe>
@@ -12,4 +12,4 @@ function Iframe() {
   )
 }
 
-export default Iframe
+export default Report;

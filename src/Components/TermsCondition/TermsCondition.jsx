@@ -207,16 +207,16 @@ function TermsCondition() {
       </p>
 
       <div className="py-10">
-        {terms.map(({ termsTitle, conditions }) => {
+        {terms.map(({ termsTitle, conditions },i) => {
           return (
-            <ul className="mt-5 mb-10">
+            <ul key={i} className="mt-5 mb-10">
               <h1 className="my-2 font-[600] text-base md:text-[18px] lg:text-[20px]">
                 {termsTitle}
               </h1>
 
-              {conditions.map(({ condition }) => {
+              {conditions.map(({ condition },i) => {
                 return (
-                  <li className="text-[15px] font-[500] text-[#7E8999]">
+                  <li key={i} className="text-[15px] font-[500] text-[#7E8999]">
                     {condition}
                   </li>
                 );

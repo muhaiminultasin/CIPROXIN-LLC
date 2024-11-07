@@ -28,7 +28,7 @@ function Membership() {
             <ul className='flex flex-wrap gap-2'>
             {
                 tags.map( ({title},i) => {
-                    return <li><Button key={i} Name={title} className={"bg-white text-[14px]"}/></li>
+                    return <li key={i}><Button key={i} Name={title} className={"bg-white text-[14px]"}/></li>
                 })
             }
             </ul>

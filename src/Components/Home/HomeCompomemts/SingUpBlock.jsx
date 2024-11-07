@@ -5,7 +5,7 @@ function SingUpBlock() {
   return (
     <section className='bg-[url(/PBImage/equipment.jpg)] bg-center  bg-no-repeat px-[20px] md:px-[70px] lg:px-[140px] py-[100px] opacity-100'>
       <div>
-        <Title titleClass={"text-[25px] md:text-[40px] text-white md:text-center max-w-[700px"} subtitleClass={"text-white"} title={"Start selling your music Worldwide today"} subtitle={"Ciproxin LLC is a premier music distribution platform helping artists reach audiences worldwide on Spotify, Apple Music, TikTok, and more. Contact us today and start sharing your music with millions!"}/>
+        <Title titleClass={"text-[25px] md:text-[40px] text-white md:text-center max-w-[700px"} subtitleClass={"text-white"} title={"Start selling your music Worldwide today"} subtitle={"Start selling your music worldwide with *CIPROXIN LLC*, distributing your tracks across major platforms like Spotify, Apple Music, and YouTube. Monetize your music through royalties from streams, downloads, and licensing opportunities. With an easy upload process, you can begin earning without the need for a record label."}/>
       </div>
 
       {/* <div className="flex flex-col md:flex-row md:gap-5 justify-center ">
@@ -16,4 +16,4 @@ function SingUpBlock() {
   )
 }
 
-export default SingUpBlock
+export default SingUpBlock;
