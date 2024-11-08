@@ -10,7 +10,7 @@ function Contact() {
         {
             title:"Report copyright infringement",
             img:"./PBImage/link-icon.png",
-            link:"/iframe"
+            link:"/report"
         },
         {
             title:"Dashboard Application",
