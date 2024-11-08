@@ -37,9 +37,9 @@ function Contact() {
                 </div>
             </div>
         </div>
-        <Footer className={"absolute bottom-0"}/>
+        <Footer className={"absolute bottom-0 w-full"}/>
     </div>
   )
 }
 
-export default Contact
+export default Contact;
