@@ -126,7 +126,7 @@ function PrivecyPolicy() {
       conditions: [
         {
           condition:
-            "If you have any questions or concerns about this Privacy Policy, please contact us at: support@ciproxinllc.com",
+            "If you have any questions or concerns about this Privacy Policy, please contact us at: contact@ciproxinllc.com",
         }
       ],
     }
@@ -141,11 +141,7 @@ function PrivecyPolicy() {
         subtitleClass={"mt-0"}
         subtitle={"Effective Date: July 2024"}
       />
-      {/* <p className="font-[400] text-[16px] text-[#7E8999]  text-center md:text-start mt-3">
-        Welcome to CIPROXIN LLC. By creating an account with us, you agree to
-        these Terms and Conditions (“Terms”) and our associated Privacy Policy
-        in its entirety.
-      </p> */}
+     
 
       <div className="py-10">
         {policy.map(({ policyTitle, conditions },i) => {

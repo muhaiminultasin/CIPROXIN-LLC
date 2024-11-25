@@ -185,7 +185,7 @@ function TermsCondition() {
       conditions: [
         {
           condition:
-            "For any questions or concerns regarding these Terms, please contact us at:",
+            "For any questions or concerns regarding these Terms, please contact us at: contact@ciproxinllc.com",
         },
       ],
     },

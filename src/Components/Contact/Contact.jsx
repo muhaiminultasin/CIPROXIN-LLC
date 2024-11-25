@@ -35,6 +35,8 @@ function Contact() {
                     return <NavLink key={i} to={link}><ReportBtn  className={"text-black text-center"} title={title} img={img} link={link}/></NavLink>
                 })}
                 </div>
+
+                <p className='mt-5 text-center'>If you have any questions, concerns, or important messages, email us at <span>contact@ciproxinllc.com</span>, and we'll respond quickly.</p>
             </div>
         </div>
         <Footer className={"absolute bottom-0 w-full"}/>

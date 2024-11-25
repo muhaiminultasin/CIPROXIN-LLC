@@ -95,7 +95,7 @@ function PrivecyPolicy() {
       </div>
       <div className='space-y-2 text-[#111C2EA3]'>
           {/* <p>CIPROXIN LLC</p> */}
-          <p>For more information or to get started, feel free to reach out to us at support@ciproxinllc.com.</p>
+          <p>For more information or to get started, feel free to reach out to us at contact@ciproxinllc.com</p>
           <p>Thank you for choosing CIPROXIN LLC. We can’t wait to help you share your music!</p>
     </div>
     </div>
